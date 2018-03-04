@@ -1,5 +1,5 @@
 // @flow
-import toCamelCase from './toCamelCase';
+import toCamelCase from './toLowerCamelCase';
 
 /**
  * alias of toLowerCamelCase
