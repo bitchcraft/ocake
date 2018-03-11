@@ -61,7 +61,7 @@ var payload = convertKeys({
     clientId: 17
 }, StringConverters.toKebabCase);
 
-const requestBody = JSON.stringify(payload);
+var requestBody = JSON.stringify(payload);
 ```
 
 ### StringConverters
