@@ -8,6 +8,8 @@
    ``----------´
 ```
 
+[![CircleCI](https://circleci.com/gh/bitchcraft/ocake.svg?style=svg&circle-token=a18b3226f0078f47bde21e3816c8c1a24c872a80)](https://circleci.com/gh/bitchcraft/ocake)
+
 Convert the case of keys in an object (e. g. to camelCase), or simply convert the case of a string to another case.
 
 ```js
