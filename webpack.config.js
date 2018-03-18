@@ -7,7 +7,7 @@ const config = {
 	context: path.resolve(__dirname),
 	entry: {
 		ocake: [
-			'./src/Ocake.js',
+			'./src/OCake.js',
 		],
 	},
 	output: {
