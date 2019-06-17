@@ -1,6 +1,6 @@
 {
 	"name": "@bitchcraft/ocake",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"private": false,
 	"description": "Object keys case converter (and collection of case string converters)",
 	"license": "BSD-3-Clause",
