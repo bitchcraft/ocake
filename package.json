@@ -5,13 +5,13 @@
 	"description": "Object keys case converter (and collection of case string converters)",
 	"license": "BSD-3-Clause",
 	"dependencies": {
-		"@babel/runtime-corejs2": "^7.5.4",
+		"@babel/runtime-corejs2": "^7.6.3",
 		"no-case": "^2.3.2",
 		"set-value": "^3.0.1"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.0.0",
-		"@babel/core": "^7.0.0",
+		"@babel/cli": "^7.6.3",
+		"@babel/core": "^7.6.3",
 		"@babel/plugin-proposal-class-properties": "^7.0.0",
 		"@babel/plugin-proposal-decorators": "^7.0.0",
 		"@babel/plugin-proposal-do-expressions": "^7.0.0",
@@ -29,9 +29,9 @@
 		"@babel/plugin-syntax-dynamic-import": "^7.0.0",
 		"@babel/plugin-syntax-import-meta": "^7.0.0",
 		"@babel/plugin-transform-runtime": "^7.0.0",
-		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-env": "^7.6.3",
 		"@babel/preset-flow": "^7.0.0",
-		"@babel/preset-react": "^7.0.0",
+		"@babel/preset-react": "^7.6.3",
 		"babel-core": "^7.0.0-bridge.0",
 		"babel-eslint": "^10.0.1",
 		"babel-jest": "^24.8.0",
@@ -45,7 +45,7 @@
 		"eslint-plugin-import": "^2.17.3",
 		"eventsource-polyfill": "^0.9.6",
 		"expect": "^24.8.0",
-		"flow-bin": "^0.108.0",
+		"flow-bin": "^0.109.0",
 		"jest": "^24.8.0",
 		"webpack": "^4.34.0",
 		"webpack-bundle-analyzer": "^3.3.2"
