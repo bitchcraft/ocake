@@ -6,7 +6,7 @@
 	"license": "BSD-3-Clause",
 	"dependencies": {
 		"@babel/runtime-corejs2": "^7.6.3",
-		"no-case": "^2.3.2",
+		"no-case": "^3.0.3",
 		"set-value": "^3.0.1"
 	},
 	"devDependencies": {
