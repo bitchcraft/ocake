@@ -1,5 +1,5 @@
 // @flow
-import nocase from 'no-case';
+import { noCase as nocase } from 'no-case';
 
 /**
  * converts most cases to kebab-case
@@ -10,6 +10,11 @@ import nocase from 'no-case';
  * @return {string}
  * @requires npm:no-case
  */
-const toKebabCase = (haystack: string): string => nocase(haystack, null, '-');
+
+const noCaseOptions = {
+    delimiter: "-"
+};
+
+const toKebabCase = (haystack: string): string => nocase(haystack, noCaseOptions);
 
 export default toKebabCase;
