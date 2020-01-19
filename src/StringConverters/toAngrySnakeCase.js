@@ -1,5 +1,5 @@
 // @flow
-import nocase from 'no-case';
+import { noCase as nocase } from 'no-case';
 
 /**
  * converts most cases to ANGRY_SNAKE_CASE
@@ -10,6 +10,11 @@ import nocase from 'no-case';
  * @return {string}
  * @requires npm:no-case
  */
-const toAngrySnakeCase = (haystack: string): string => nocase(haystack, null, '_').toUpperCase();
+
+const noCaseOptions = {
+    delimiter: "_"
+};
+
+const toAngrySnakeCase = (haystack: string): string => nocase(haystack, noCaseOptions).toUpperCase();
 
 export default toAngrySnakeCase;

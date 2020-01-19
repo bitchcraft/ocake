@@ -1,5 +1,5 @@
 // @flow
-import nocase from 'no-case';
+import { noCase as nocase } from 'no-case';
 
 /**
  * converts most cases to 'SHOUT CASE'
